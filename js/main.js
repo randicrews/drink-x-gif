@@ -1,4 +1,5 @@
 
+document.querySelector('button').addEventListener('click', getDrink)
 function getDrink(){
     const url = (`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
     fetch(url)
@@ -15,7 +16,7 @@ function getDrink(){
       document.getElementById('4').innerText = data.drinks[0].strIngredient4
       document.getElementById('5').innerText = data.drinks[0].strIngredient5
 
-      
+       
         function getGif(){
             let drink = document.querySelector('h1').innerText
             const url = (`https://api.giphy.com/v1/gifs/search?api_key=iOtEOYECnXvbGRBhYAEpepCTLP8VsfVO&q=${drink}&limit=25&offset=0&rating=g&lang=en`)
