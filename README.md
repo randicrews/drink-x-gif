@@ -1,5 +1,5 @@
 # DRINK x GIF
-A step up from my previous experiment with web APIs, this app fetches a random drink from TheCoctailDB and uses that data to fetch a matching gif from Giphy's API. 
+A step up from my previous experiment with web APIs, this app fetches a random drink, its ingredients, and instructions from TheCoctailDB and uses that data to fetch a matching gif from Giphy's API. 
 
 [Check it out here :sparkles:](https://drinkxgif.netlify.app/)
 
