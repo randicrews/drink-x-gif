@@ -13,4 +13,4 @@ A step up from my previous experiment with web APIs, this app fetches a random d
 - JAVASCRIPT
 
 ## TAKEAWAY
-Through building this app, I experimented with using fetched data to fetch more data from web APIs. I also had a lot of fun displaying that data in the DOM by adding the gifs to a coctail glass to match the theme.
+Through building this app, I experimented with using fetched data to fetch more data from web APIs. I also had a lot of fun displaying that data in the DOM by adding the gifs to a cocktail glass to match the theme.
